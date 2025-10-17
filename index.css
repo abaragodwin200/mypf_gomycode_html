@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'roboto', sans-serif;
+    background-color: #111;
+    color: white;
+    margin: 30px;
+padding: 20px;
+}
+
+nav ul li {
+    display: inline;
+    word-spacing:  4rem;
+    text-align: left;
+    margin: 0 15px;
+}
+
+nav {
+    background-color: bisque;
+    padding: 15px 0;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    color: blueviolet;
+    text-decoration: unset;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: lightgreen;
+    transition: 0.3s;
+}
+
+#home {
+    background-color: lightslategrey;
+    text-align: center;
+    padding: 30px;
+    line-height: 20px;
+}
+
+#home .title {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black ;
+    padding: 20px;
+}
+
+#home iframe {
+width: 100%;
+height: 300px;
+border: 2px dotted black;
+border-radius: 10px;
+box-shadow: 0, 0, 0, 0.4;
+margin: 20px auto;
+display: block;
+}
+
+#about {
+    background-color: lightpink;
+    line-height: 2rem;
+    padding: 30px;
+    border: 2px solid beige;
+    display: flex;
+    flex-direction: column;
+}
+
+#about h1 {
+    font-size: large;
+    border: 2px solid whitesmoke;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+#about h3:nth-child(2) {
+    color: black;
+    font-weight: bold;
+    border: 2px solid beige;
+    padding: 5px 8px;
+    display: inline-block;
+    background-color: burlywood;
+}
+
+#about h3:nth-child(3) {
+    text-align: end;
+    color: #111;
+    font-weight: bolder;
+    border: 2px solid beige;
+    padding: 5px 8px;
+    display: inline-block;
+    background-color: burlywood;
+  
+}
+
+#about h3:nth-child(4) {
+    text-align: center;
+    color: #111;
+    font-size: larger;
+    border: 2px solid beige;
+    padding: 5px 8px;
+    display: inline-block;
+    background-color: burlywood;
+   
+}
+
+#about h3:nth-child(5) {
+    color: black;
+    font-weight: bold;
+    border: 2px solid beige;
+    padding: 5px 8px;
+    display: inline-block;
+    background-color: burlywood;
+    
+}
+
+#about h3:nth-child(6) {
+    text-align: end;
+    color: #111;
+    font-weight: bolder;
+    border: 2px solid beige;
+    padding: 5px 8px;
+    display: inline-block;
+    background-color: burlywood;
+}
+
+#about .mainguy {
+    font-family: 'roboto', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#about .post {
+    border-radius: 15px;
+    object-fit: 10px;
+    box-shadow: rgba(0, 3px, 10px, o.4);
+    filter: brightness(1) contrast(1);
+    border: 3px solid black;
+    display: block;
+    margin: 0 auto;
+   
+}
+
+#about .caption {
+    text-align: center;
+    font-size: large;
+}
+
+#work {
+    line-height: 2rem;
+    font-family: 'roboto', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#work table{
+    width: 100%;
+    border: 2px solid white;
+    font-family: 'roboto', sans-serif;
+    font-size: large;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4);
+
+}
+
+tr, th {
+    background-color: burlywood;
+
+}
+
+th {
+    background-color: #111;
+    color: lightblue;
+}
+
+#work audio{
+    width: 300px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+}
+
+
+#resume {
+    background-color: cornflowerblue;
+    color: #111;
+    text-align: center;
+}
+
+#contact {
+    background-color: white;
+    color: #111;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+#contact input,
+#contact textarea {
+    padding: 15px;
+    margin: 20px;
+    border: 2px solid #111;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 0.3s;
+    box-shadow: rgba(70, 80, 150, 0.4);
+    border-bottom: lightblue;
+    cursor: pointer;
+
+}
+
+#contact input:hover {
+        background-color: aquamarine;
+
+}
+
+@media (max-width: 520px) {
+    #contact {
+        padding: 25px 20px;
+
+    }
+
+}
+
+footer {
+     background-color: bisque;
+    padding: 15px 0;
+    color: lightgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+.left a:hover {
+    color: azure;
+}
+
+.omo a:hover {
+    color: azure;
+}
+
+@media (max-width: 500px) {
+
+    footer {
+        gap: 15px;
+    }
+}
+
+
+
+
+
